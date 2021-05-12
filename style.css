@@ -1,0 +1,75 @@
+/*imports*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+/*header section*/
+nav {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li a {
+  cursor: pointer;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 13px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+#menu a svg {
+  width: 20px;
+  height: 20px;
+}
+
+#menu a:hover {
+  text-decoration: none;
+}
+
+#connectBtn {
+  background-color: #1f73e6;
+  border-radius: 5%;
+}
+#connectBtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#active {
+  font-weight: bolder;
+}
+/*search  section*/
+
+/*input element*/
+
+/*microphone icon*/
+
+/*google search button*/
+
+/*i am feeling lucky*/
+
+/*bottom text*/
+
+/*footer section*/
