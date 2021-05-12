@@ -61,7 +61,14 @@ li a:hover {
   font-weight: bolder;
 }
 /*search  section*/
+#search {
+  position: relative;
+  margin: 300px 500px;
+}
 
+#logoDiv {
+ text-align:center;
+}
 /*input element*/
 
 /*microphone icon*/
