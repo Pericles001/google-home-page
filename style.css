@@ -53,8 +53,8 @@ li a:hover {
   border-radius: 5%;
   transition: all 0.5s;
 }
-#connectBtn:hover{
-  background-color:#0e3873; 
+#connectBtn:hover {
+  background-color: #0e3873;
 }
 
 #connectBtn a {
@@ -72,13 +72,20 @@ li a:hover {
 }
 
 #logoDiv {
- 
   text-align: center;
 }
 /*input element*/
-#inputDiv{
+#inputDiv {
   position: relative;
-  margin:20px 250px;
+  margin: 20px 250px;
+  align-items: center;
+  justify-content: center;
+}
+#searchInput {
+  margin-left: -180px;
+  height: 35px;
+  width: 520px;
+  border-radius: 25px;
 }
 /*microphone icon*/
 
