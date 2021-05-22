@@ -26,6 +26,13 @@ body {
 
 /*Header*/
 .header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header ul{
+  display: flex;
+  align-items: center;
 }
 /*Footer*/
 .footer {
