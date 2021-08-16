@@ -131,3 +131,35 @@ footer h3 {
   margin: 0 10px;
   color: #444;
 }
+
+@media (min-width:500px) {
+   .hero .form-container form input{
+     width: 400px;
+
+   }
+}
+
+@media (min-width:640px) {
+   .hero .form-container form input{
+     width: 500px;
+
+   }
+}
+
+@media (min-width:768x) {
+   .hero .form-container form input{
+     width: 650px;
+
+   }
+   .footer .footer-links{
+     flex-direction: row;
+     justify-content: space-around;
+   }
+}
+
+@media (min-width:1280px){
+  .footer .footer-links{
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+}
