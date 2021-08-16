@@ -7,9 +7,13 @@
 ## Usage guide
 
   You can view the demo on your local machine after following these steps:
+  
+  
        *  git clone
        *  cd google-home-page
        *  run live server (depends from your coding environment)
+       
+       
 
 ## Contribution guide
 
