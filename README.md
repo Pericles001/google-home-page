@@ -7,15 +7,9 @@
 ## Usage guide
 
   You can view the demo on your local machine after following these steps:
-<<<<<<< HEAD
-     *  git clone
-     *  cd google-home-page
-     *  run live server (depends from your coding environment)
-=======
      *git clone
      *cd google-home-page
      *run live server (depends from your coding environment)
->>>>>>> 8f2df3c9991db9a7ea80e0db3078202ef12001ae
 
 ## Contribution guide
 
