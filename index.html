@@ -1,107 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/0d3f33bc0c.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css" />
-    <title>Google</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="resources/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="resources/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="resources/favicon_io/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-  </head>
-  <body>
-    <!--header-->
 
-    <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0d3f33bc0c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Google</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <!--header-->
+
+  <header class="header">
+    <ul>
+      <li>
+        <a href="https://mail.google.com">Gmail</a>
+      </li>
+      <li>Images</li>
+
+      <!--bento menu-->
+      <li></li>
+      <li>
+        <img src="/resources/profile.png" alt="profile image" title="Pericles Adjovi" />
+      </li>
+    </ul>
+  </header>
+
+  <!--hero-->
+
+  <section class="hero">
+    <div class="google-logo">
+      <img src="resources/googleLogo.png" alt="Google logo" title="search for something" />
+    </div>
+    <!--search form-->
+    <div class="form-container">
+      <form >
+        <label class="search">
+          <i class="fas fa-search "></i>
+        </label>
+        <input type="text" title="Search" />
+        <label class="mic">
+          <i class="fas fa-microphone "> </i>
+        </label>
+      </form>
+    </div>
+
+    <!--Buttons-->
+    <div class="buttons">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div>
+      <h3>Benin</h3>
+    </div>
+    <div class="footer-links">
       <ul>
-        <li>
-          <a href="https://mail.google.com">Gmail</a>
-        </li>
-        <li>Images</li>
-
-        <!--bento menu-->
-        <li></li>
-        <li>
-          <img
-            src="/resources/profile.png"
-            alt="profile image"
-            title="Pericles Adjovi"
-          />
-        </li>
+        <li>About</li>
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>How Search Works</li>
       </ul>
-    </header>
 
-    <!--hero-->
+      <ul>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+      </ul>
+    </div>
+  </footer>
+</body>
 
-    <section class="hero">
-      <div>
-        <img
-          src="resources/googleLogo.png"
-          alt="Google logo"
-          title="search for something"
-        />
-      </div>
-
-      <div class="form-container">
-        <form action="">
-          <label class="search">
-            <i class="fas fa-search "></i>
-          </label>
-          <input type="text" title="Search" />
-          <label class="mic">
-            <i class="fas fa-microphone "> </i>
-          </label>
-        </form>
-      </div>
-
-      <!--Buttons-->
-      <div class="buttons">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-      </div>
-    </section>
-
-    <!--Footer-->
-    <footer class="footer">
-      <div>
-        <h3>Benin</h3>
-      </div>
-      <div class="footer-links">
-        <ul>
-          <li>About</li>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>How Search Works</li>
-        </ul>
-
-        <ul>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
-        </ul>
-      </div>
-    </footer>
-  </body>
 </html>

@@ -59,15 +59,16 @@ body {
 }
 
 .hero .form-container form label.search {
-  position: absolute;
-  left: 10px;
-  top: 8px;
+  position:relative;
+  left: 40px
+
+
 }
 
 .hero .form-container form label.mic {
-  position: absolute;
-  right: 10px;
-  top: 8px;
+  position: relative;
+  right: 40px;
+
 }
 
 .hero .form-container form input {
